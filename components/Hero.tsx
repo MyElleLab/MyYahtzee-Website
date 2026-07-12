@@ -26,8 +26,8 @@ export function Hero() {
         <Image
           src="/icon.png"
           alt="MyYahtzee app icon"
-          width={120}
-          height={120}
+          width={180}
+          height={180}
           className="rounded-2xl shadow-lg"
         />
       </div>
