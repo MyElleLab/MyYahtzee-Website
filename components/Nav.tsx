@@ -13,7 +13,7 @@ export function Nav() {
             alt="MyYahtzee icon"
             width={32}
             height={32}
-            className="rounded-lg"
+            className="drop-shadow-sm"
           />
           <span className="text-lg font-bold text-navy">MyYahtzee</span>
         </Link>
