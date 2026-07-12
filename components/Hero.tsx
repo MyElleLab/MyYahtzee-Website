@@ -22,13 +22,13 @@ export function Hero() {
           height="44"
         />
       </a>
-      <div className="mt-8 flex justify-center">
+      <div className="mx-auto mt-8 h-[180px] w-[180px] overflow-hidden rounded-[28px] shadow-md">
         <Image
           src="/icon.png"
           alt="MyYahtzee app icon"
           width={180}
           height={180}
-          className="rounded-2xl shadow-lg"
+          className="h-full w-full object-cover"
         />
       </div>
     </section>

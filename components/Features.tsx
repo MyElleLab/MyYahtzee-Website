@@ -37,12 +37,17 @@ export function Features() {
       <h2 className="text-center text-2xl font-bold text-navy">
         Everything you need, nothing you don&apos;t
       </h2>
-      <div className="mt-10 grid gap-x-8 gap-y-10 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
         {FEATURES.map((feature) => (
-          <div key={feature.label}>
+          <div
+            key={feature.label}
+            className="flex flex-col gap-3 rounded-2xl border border-border bg-surface p-6"
+          >
             <span className="text-2xl">{feature.icon}</span>
-            <h3 className="mt-3 font-bold text-navy">{feature.label}</h3>
-            <p className="mt-1 text-sm text-muted">{feature.description}</p>
+            <p className="font-semibold text-navy">{feature.label}</p>
+            <p className="text-sm leading-relaxed text-muted">
+              {feature.description}
+            </p>
           </div>
         ))}
       </div>
