@@ -24,7 +24,7 @@ export function Hero() {
       </a>
       <div className="mx-auto mt-8 h-[180px] w-[180px] drop-shadow-md">
         <Image
-          src="/icon.png"
+          src="/icon-v2.png"
           alt="MyYahtzee app icon"
           width={180}
           height={180}
