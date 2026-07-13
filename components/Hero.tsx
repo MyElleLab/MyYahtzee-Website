@@ -12,7 +12,7 @@ export function Hero() {
         Yahtzee with friends, no paper needed.
       </h1>
       <p className="mx-auto mt-4 max-w-lg text-muted">
-        Roll on your phone or use real dice — MyYahtzee keeps score either
+        Roll on your phone or use real dice: MyYahtzee keeps score either
         way. Free, offline, no account.
       </p>
       <a href={APP_STORE_URL} className="mt-8 inline-block">

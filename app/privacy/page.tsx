@@ -3,7 +3,7 @@ import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — MyYahtzee",
+  title: "Privacy Policy: MyYahtzee",
 };
 
 export default function PrivacyPage() {
@@ -18,8 +18,8 @@ export default function PrivacyPage() {
           <h2 className="text-lg font-semibold text-navy">Overview</h2>
           <p className="mt-2 text-sm leading-relaxed text-muted">
             MyYahtzee is developed by MyElleLab (hello@myellelab.com). This
-            policy explains what data MyYahtzee collects — and, in short,
-            what it doesn&apos;t.
+            policy explains what data MyYahtzee collects: in short, what it
+            doesn&apos;t.
           </p>
         </section>
 
@@ -62,15 +62,15 @@ export default function PrivacyPage() {
           </h2>
           <p className="mt-2 text-sm leading-relaxed text-muted">
             MyYahtzee shows no ads and works with no data brokers. We do not
-            sell, rent, or share your data with any third party — because we
-            never collect it in the first place.
+            sell, rent, or share your data with any third party: we never
+            collect it in the first place.
           </p>
         </section>
 
         <section className="mt-8">
           <h2 className="text-lg font-semibold text-navy">No cookies</h2>
           <p className="mt-2 text-sm leading-relaxed text-muted">
-            MyYahtzee is an app, not a website with a login — it does not use
+            MyYahtzee is an app, not a website with a login: it does not use
             cookies or any similar tracking technology.
           </p>
         </section>

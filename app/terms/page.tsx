@@ -3,7 +3,7 @@ import { Nav } from "@/components/Nav";
 import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Terms of Use — MyYahtzee",
+  title: "Terms of Use: MyYahtzee",
 };
 
 export default function TermsPage() {

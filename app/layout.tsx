@@ -9,13 +9,13 @@ const sans = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "MyYahtzee — Yahtzee with friends, no paper needed.",
+  title: "MyYahtzee: Yahtzee with friends, no paper needed.",
   description:
-    "Roll on your phone or use real dice — MyYahtzee keeps score either way. Free, offline, no account.",
+    "Roll on your phone or use real dice: MyYahtzee keeps score either way. Free, offline, no account.",
   openGraph: {
     title: "MyYahtzee",
     description:
-      "Roll on your phone or use real dice — MyYahtzee keeps score either way. Free, offline, no account.",
+      "Roll on your phone or use real dice: MyYahtzee keeps score either way. Free, offline, no account.",
     type: "website",
     url: "https://myyahtzee.myellelab.com",
   },
