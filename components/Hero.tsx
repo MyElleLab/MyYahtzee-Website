@@ -9,11 +9,16 @@ export function Hero() {
         Pass-and-play · 2–10 players · Offline
       </p>
       <h1 className="mt-4 text-4xl font-bold text-navy sm:text-5xl">
-        Yahtzee with friends, no paper needed.
+        Yahtzee with friends,
+        <br />
+        no paper needed.
       </h1>
       <p className="mx-auto mt-4 max-w-lg text-muted">
-        Roll on your phone or use real dice: MyYahtzee keeps score either
-        way. Free, offline, no account.
+        Roll on your phone or use real dice.
+        <br />
+        MyYahtzee keeps score either way.
+        <br />
+        Free, offline, no account.
       </p>
       <a href={APP_STORE_URL} className="mt-8 inline-block">
         <img
