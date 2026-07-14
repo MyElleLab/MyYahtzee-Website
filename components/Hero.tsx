@@ -6,7 +6,7 @@ export function Hero() {
   return (
     <section className="mx-auto max-w-2xl px-6 pb-20 pt-16 text-center sm:pt-24">
       <p className="text-xs font-semibold uppercase tracking-widest text-muted">
-        Pass-and-play · 2–6 players · Offline
+        Pass-and-play · 2–10 players · Offline
       </p>
       <h1 className="mt-4 text-4xl font-bold text-navy sm:text-5xl">
         Yahtzee with friends, no paper needed.

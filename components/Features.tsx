@@ -1,7 +1,7 @@
 const FEATURES = [
   {
     icon: "🎲",
-    label: "Up to 6 players",
+    label: "Up to 10 players",
     description: "Each with a name and dice color.",
   },
   {
